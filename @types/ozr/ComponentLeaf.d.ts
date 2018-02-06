@@ -1,0 +1,3 @@
+interface ComponentLeaf {
+    GetBand:{():Band}
+}
