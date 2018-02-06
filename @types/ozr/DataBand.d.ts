@@ -1,10 +1,7 @@
-interface DataBand extends Band {
+interface DataBand extends Band, DataSetOrderList, DummyHeaderFooterCountable {
   GetBindingOrderList: { (): string };
 
   GetDataSetName: { (): string };
-
-  GetDummyFooterCount: { (): number };
-  GetDummyHeaderCount: { (): number };
 
   GetMasterName: { (): string };
 
@@ -21,7 +18,6 @@ interface DataBand extends Band {
   IsFixTitle: { (): boolean };
 
   SetAutoSize: { (AutoSize: boolean): void };
-  SetBindingOrderList: { (BindingOrderList: string): void };
 
   SetFixMaster: { (FixMaster: boolean): void };
   SetFixPriorGroupHeader: { (FixPriorGroupHeader: boolean): void };

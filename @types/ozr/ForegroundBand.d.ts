@@ -1,0 +1,3 @@
+interface ForegrondBand extends Band {
+    
+}

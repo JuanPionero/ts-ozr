@@ -1,0 +1,3 @@
+interface PageFooterBand extends Band {
+    
+}

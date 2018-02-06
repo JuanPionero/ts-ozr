@@ -1,0 +1,3 @@
+interface DataSubBand extends Band {
+    
+}

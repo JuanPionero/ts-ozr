@@ -1,0 +1,3 @@
+interface TitleBand extends Band {
+    
+}

@@ -1,0 +1,3 @@
+interface TailBand extends Band {
+    
+}

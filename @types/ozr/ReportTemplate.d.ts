@@ -1,4 +1,4 @@
-interface ReportTemplate extends DataSetAppliable {
+interface ReportTemplate extends DataSetAppliable, DataSetOrderList {
   SetGlobal: { (key: string, value: GlobalAssignable): void };
   GetGlobal: { (key: string): GlobalAssignable };
 
@@ -30,7 +30,6 @@ interface ReportTemplate extends DataSetAppliable {
 
 
   SetAntialiasing: { (Antialiasing: boolean): void };
-  SetBindingOrderList: { (BindingOrderList: string): void };
   SetDataSetSorting: {
     (DataSetPath: string, SortInformation: string): void;
   };

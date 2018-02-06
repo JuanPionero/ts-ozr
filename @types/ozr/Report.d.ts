@@ -1,3 +1,3 @@
-interface Report {
+interface Report extends DataSetOrderList {
     
 }

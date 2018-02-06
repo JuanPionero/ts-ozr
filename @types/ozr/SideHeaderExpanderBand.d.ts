@@ -1,0 +1,3 @@
+interface SideHeaderExpanderBand extends Band {
+    
+}

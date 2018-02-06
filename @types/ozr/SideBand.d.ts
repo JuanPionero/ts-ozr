@@ -1,0 +1,3 @@
+interface SideBand extends DataBand {
+    
+}

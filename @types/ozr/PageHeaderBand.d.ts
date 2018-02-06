@@ -1,0 +1,3 @@
+interface PageHeaderBand extends Band {
+    
+}

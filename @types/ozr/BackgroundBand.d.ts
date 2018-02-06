@@ -1,0 +1,3 @@
+interface BackgroundBand extends Band {
+    
+}

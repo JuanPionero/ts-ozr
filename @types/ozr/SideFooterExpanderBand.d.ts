@@ -1,0 +1,3 @@
+interface SideFooterExpanderBand extends Band {
+    
+}
