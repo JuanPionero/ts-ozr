@@ -1,4 +1,4 @@
-interface ReportTemplate extends DataSetAppliable, DataSetOrderList {
+interface ReportTemplate extends DataSetUsable, DataSetOrderList {
   SetGlobal: { (key: string, value: GlobalAssignable): void };
   GetGlobal: { (key: string): GlobalAssignable };
 
