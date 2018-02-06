@@ -1,11 +1,7 @@
-interface DataBand extends Band, DataSetOrderList, DummyHeaderFooterCountable {
+interface DataBand extends Band, DataSetLinkable, DataSetOrderList, DummyHeaderFooterCountable {
   GetBindingOrderList: { (): string };
 
-  GetDataSetName: { (): string };
-
   GetMasterName: { (): string };
-
-  GetODIName: { (): string };
 
   GetSubBandCount: { (): number };
 

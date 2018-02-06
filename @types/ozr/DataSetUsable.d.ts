@@ -1,4 +1,4 @@
-interface DataSetAppliable {
+interface DataSetUsable {
   GetDataSetAVG: {
     (
       FieldPath: string,
